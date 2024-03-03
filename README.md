@@ -10,7 +10,7 @@ Java GUI Application (Swing): Application that converts Japanese text to Morse c
 
 ## Overview
 
-This Java application translates Japanese Katakana characters into Morse code and vice versa. It provides a graphical user interface (GUI) for users to input Katakana or Morse code and see the corresponding translation. Additionally, the application simulates a traffic light system to represent the Morse code visually.
+This Java application translates Japanese Katakana characters into Morse code and vice versa. It provides a graphical user interface (GUI) for users to input Katakana or Morse code and see the corresponding translation. Additionally, the application represents the Morse code visually.
 
 ![Katakana](images/katakana.gif)
 
@@ -18,8 +18,8 @@ This Java application translates Japanese Katakana characters into Morse code an
 
 - **Katakana to Morse Code Translation**: Users can input a string of Katakana characters, and the application will display the corresponding Morse code.
 - **Morse Code to Katakana Translation**: Users can input Morse code, and the application will display the corresponding Katakana characters.
-- **Graphical User Interface**: The application includes text areas for input and output, buttons for actions, and a traffic light simulation for Morse code.
-- **Traffic Light Simulation**: The application simulates a traffic light that blinks red to represent the dots and dashes of Morse code visually.
+- **Graphical User Interface**: The application includes text areas for input and output, buttons for actions, and a light simulation for Morse code.
+- **Light Simulation**: The application simulates a light that blinks red to represent the dots and dashes of Morse code visually.
 
 ## Components
 
@@ -27,7 +27,7 @@ This Java application translates Japanese Katakana characters into Morse code an
 - **Morse Code Text Area**: A text area where users can input Morse code.
 - **Translate Buttons**: Buttons to translate Katakana to Morse code and vice versa.
 - **Clear Buttons**: Buttons to clear the respective text areas.
-- **Traffic Light Panel**: A simulated traffic light that represents Morse code signals visually.
+- **Light Panel**: A simulated light that represents Morse code signals visually.
 
 ## Usage
 1. **Execute the KatakanaTranslator.java.**: 
@@ -36,7 +36,7 @@ This Java application translates Japanese Katakana characters into Morse code an
    - Enter Katakana characters in the Japanese text area.
    - Click the "Japanese >> Morse" button.
    - The Morse code representation will appear in the Morse code text area.
-   - The traffic light will simulate the Morse code.
+   - The light will simulate the Morse code.
 
 3. **Translating Morse Code to Katakana**: 
    - Enter Morse code in the Morse code text area.
@@ -47,5 +47,5 @@ This Java application translates Japanese Katakana characters into Morse code an
 
 - Input Dakuten (゛) and Handakuten (゜) separately (e.g., デ -> 「テ」+「゛」).
 - Use [。] or [、] to separate sentences in Katakana.
-- The traffic light simulation visualizes Morse code, with red light for dots and dashes, pausing appropriately between characters and words.
+- The light simulation visualizes Morse code, with red light for dots and dashes, pausing appropriately between characters and words.
 
